@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container_main">
+			<form class="city-search" id="search-form">
+				<div class="inputs">
+					<button class="location_button">
+						<img
+							class="location"
+							id="Position"
+							src="GIF/location.png"
+						/>
+					</button>
+					<form>
+						<input
+							class="city"
+							id="city"
+							type="text"
+							placeholder="Enter a city..."
+						/>
+						<input class="search" type="submit" value="Search" />
+					</form>
+				</div>
+			</form>
+			<h1>
+				<span id="local_city"
+					>Hello! Let's find out the weather 😉
+				</span>
+				<span id="country"></span>
+			</h1>
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<div class="first first-active" id="First">
+						<div class="this_day">
+							<div class="row align-items-start">
+								<div class="col">
+									<div class="row temperature-main">
+										<div class="col-md-8 number">
+											<h2>
+												<span id="celsius"> </span
+												><span id="degree"></span>
+											</h2>
+										</div>
+										<div class="col-md-4 measure CF">
+											<div class="row">
+												<div class="col-md-12 text-C">
+													<button
+														class="button-C active unit"
+														id="C-link"
+													>
+														C
+													</button>
+												</div>
+												<div class="col-md-12 text-F">
+													<button
+														class="button-F unit"
+														id="F-link"
+													>
+														F
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col">
+									<img
+										class="image_main"
+										id="icon"
+										src="GIF/Linear/01d.gif"
+									/>
+								</div>
+							</div>
+							<br />
+							<div class="row align-items-start">
+								<div class="col left">
+									<p class="this-days" id="this_day">
+										Sunday
+									</p>
+									<p id="date_today">12.06.2022</p>
+
+									<p class="time" id="time">14:01</p>
+								</div>
+								<div class="col right">
+									<p class="weather" id="weather">Sunny</p>
+									<br />
+									<p>
+										Humidity: <span id="hum"></span>%
+										<br />
+										Wind: <span id="wind"></span> km/h
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center this_night">
+							<div class="col">
+								<h2 class="h2night">
+									<span
+										class="celsius"
+										id="celsius_night"
+										id="night_temp"
+										>18</span
+									>&deg;
+								</h2>
+							</div>
+							<div class="col">
+								<img
+									class="image_night"
+									src="GIF/Linear/01n.gif"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6" id="forecast"></div>
+			</div>
+		</div>
+		<div class="End">
+			<a
+				class="link"
+				href="https://github.com/ValeriiaBokher/Weather"
+				target="_blank"
+				>Open-source code</a
+			>
+			by Valeriia Bokher
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
