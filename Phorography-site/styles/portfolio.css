@@ -1,0 +1,264 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+	background: #171717;
+	color: white;
+}
+.navbar {
+	padding: 0px;
+}
+.nav-con-main {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding-top: 51px;
+	padding-bottom: 48px;
+	background-color: #202020;
+}
+
+.h1-homepage,
+.h2-homepage,
+.h3-homepage {
+	font-family: "Roboto", sans-serif;
+}
+.h2-homepage {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.h1-homepage {
+	font-size: 72px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 25px;
+}
+.h3-homepage {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+
+.button_main {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 18px 40px;
+	border-radius: 50px;
+	margin-top: 40px;
+	margin-bottom: 301px;
+	letter-spacing: 0.1em;
+}
+
+.head_block {
+	background-image: url(../img/bg.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #212121;
+	background-size: 1440px auto;
+}
+.head_block_text {
+	text-align: center;
+	margin-top: 138px;
+}
+
+.img_main {
+	padding: 25px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.photos {
+	margin: 100px auto;
+}
+.bottom_nav {
+	background-color: #282323;
+	padding: 40px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 140px;
+}
+.cont-icons {
+	margin-right: 10px;
+}
+
+.VB {
+	text-align: center;
+}
+.Valeriia {
+	color: #ffffff;
+}
+
+.Valeriia:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.Valeriia:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.thirdcol {
+	text-align: right;
+}
+.secondcol {
+	text-align: center;
+}
+.icons {
+	margin: auto 30px;
+}
+.navigator {
+	color: white !important;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+}
+.navigator-text {
+	text-align: right !important;
+	flex-grow: 0;
+	margin-right: 140px;
+}
+
+.navigator-icon {
+	margin-left: 140px;
+}
+.nav-item {
+	padding-left: 20px;
+}
+
+.icons_main_page {
+	text-decoration: none;
+	color: #ffffff;
+}
+.icons_main_page:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.h1-about,
+.h2-about,
+.h2-about-camera .h3-about {
+	font-family: "Roboto", sans-serif;
+}
+.h2-about {
+	font-weight: bold;
+	font-size: 18px;
+	color: #f65282;
+	margin-top: 51px;
+	margin-bottom: 32px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+.h2-about-camera {
+	font-weight: bold;
+	font-size: 18px;
+	color: #f65282;
+	margin-top: 68px;
+	margin-bottom: 32px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+.h1-about {
+	font-size: 64px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-bottom: 34px;
+}
+.h3-about {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.button_contact_me {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 18px 45px;
+	border-radius: 50px;
+	margin-top: 66px;
+	margin-bottom: 110px;
+	letter-spacing: 0.1em;
+}
+
+.camera-about {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 20px;
+	border-radius: 4px;
+	color: #ffffff;
+	background: #2d2727;
+	text-decoration: none;
+	cursor: default;
+	pointer-events: none;
+}
+.camera-about:hover {
+	text-decoration: none;
+	color: #ffffff;
+	cursor: default;
+	pointer-events: none;
+}
+.camera-photo {
+	margin-right: 30px;
+}
+
+.back-img-about {
+	background-image: url(../img/bg.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #212121;
+	background-size: auto 100%;
+}
+
+.h1-gallery {
+	font-family: "Roboto", sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	padding: 20px 20px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 32px auto 165px auto;
+}
+.right-block {
+	padding-left: 40px;
+}
+
+.h1-contact {
+	font-size: 72px;
+	font-weight: bold;
+	margin-top: 32px;
+	margin-bottom: 142px;
+	letter-spacing: 0.1em;
+	line-height: 84px;
+}
+.main-block-contact {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+.h2-cont {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #f65282;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 18px;
+	font-weight: 400;
+}
+.contact-div {
+	margin-bottom: 40px;
+}

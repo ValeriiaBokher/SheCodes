@@ -1,0 +1,22 @@
+.margin {
+	margin: 10px 15px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+h1 {
+	margin: 30px auto !important;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 30px auto;
+}
