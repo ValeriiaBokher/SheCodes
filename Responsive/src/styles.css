@@ -1,0 +1,127 @@
+:root {
+  --main-color: rgb(108, 99, 255);
+  --main-font: 96px !important;
+  --second-font: 48px !important;
+}
+
+
+h1 {
+  font-size: var(--main-font) !important;
+}
+
+h2 {
+  font-size: var(--second-font) !important;
+}
+h3 {
+  font-size: 24px !important;
+  opacity: 0.7 !important;
+}
+.body {
+  text-align: center !important ;
+  margin: 60px auto !important ;
+  max-width: 800px !important
+  display: block !important;
+}
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.info {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.images {
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+}
+
+.aclass {
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.button-text {
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.block {
+  margin-top: 50px !important;
+}
+
+.buttons {
+  margin: 90px;
+}
+.contact {
+  background: var(--main-color);
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  color: var(--main-color);
+}
+
+.acl {
+  color: var(--main-color);
+}
+
+.email1 {
+  font-size: 28px;
+  text-decoration: none;
+}
+.email1:hover {
+  text-decoration: underline;
+}
+
+}
+.column {
+  background: #f5f2fe;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 16px !important;
+}
+
+.left_align {
+  text-align: left;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  .email1 {
+    font-size: 20px !important;
+  }
+
+  .aclass {
+display: block;
+max-width: 120px;
+margin: 20px auto;
+}
+.buttons {
+  margin-top: 30px;
+}
+.info {
+  margin: 15px 30px;
+}
+.launch {
+  margin-bottom: 60px;
+}
+}
